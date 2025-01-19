@@ -35,3 +35,6 @@ Epsilon: {agent.epsilon:.3f}")                                                  
             break                                                               # Breaks the loop
 
 env.close()                                                                     # Closes the environment
+
+save_path = "save/simple_DQN_cartpole.pth"                                      # Sets save path
+agent.save_model(save_path)                                                     # Saves model to folder
