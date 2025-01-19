@@ -1,6 +1,6 @@
 
 import gym                                                                      # Imports the Gym library
-from ReinforcementLearning.algorithms.DQN.simple_DQN import DQNAgent                                                        # Imports the DQNAgent class
+from algorithms.DQN.simple_DQN import DQNAgent                                  # Imports the DQNAgent class
 
 import warnings                                                                 # Imports warnings module
 warnings.filterwarnings("ignore", category=DeprecationWarning, module="gym")    # Suppresses gym deprecation warnings
